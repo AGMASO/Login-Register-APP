@@ -1,0 +1,28 @@
+{
+  "name": "application_login",
+  "version": "1.0.0",
+  "description": "Template for Login access",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "author": "Alejo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-multiparty": "*",
+    "cors": "*",
+    "dotenv": "^16.0.0",
+    "express": "*",
+    "fs": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "multiparty": "*",
+    "nodemon": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "path": "*"
+  }
+}

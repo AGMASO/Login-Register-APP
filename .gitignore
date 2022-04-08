@@ -1,0 +1,5 @@
+#Config privacy
+
+node_modules
+.env
+/config/database.js

@@ -1,0 +1,20 @@
+
+La estructura es simple. Aqui está representada a la perfeción.
+
+1-En el rootFolder ponemos la aplicación de node.js, es decir, el backend.
+
+2-La applicación de angular va encapsulada en un folder llamado angular-src. Es decir, el front-End.
+
+3- !!Importante antes de ng Build, debemos indicar en el angular.json que el outputpath va a ser ../public. 
+    Este folder se encuentra en el rootFolder de la applicacion. Es decir, en el backend.
+
+4-Crea un .gitignore e introduce ahi configuraciones y secretos que no quieras que se suban al repositorio .git
+
+5-Ahora si podemos hacer el ng Build. y una vez hecho ahora accedemos a la aplicacion desde localhost/3000, ya que hemos incorporado
+ la applicación angular al backend. 
+
+6-Debemos exportar la base de datos local a la base de datos mongoAtlas online. Sigue tutorial.
+
+7-Una vez hecho esto, haz los cambios necesarios para conectar con DDBB online y crea la app de heroku y crea el git y procede para finalizarla.
+
+
